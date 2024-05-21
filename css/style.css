@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #171616;
+    background-color: black;
 }
 
 .converter {
@@ -50,6 +50,6 @@ button:hover {
 
 input[type="text"] {
     background-color: #f9f9f9;
-    color: #333;
+    color: #750e0e;
     font-weight: bold;
 }

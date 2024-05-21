@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style.css">
     <title>Temperature Converter</title>
 </head>
 <body>
@@ -13,20 +12,20 @@
         <label for="fromUnit">From:</label>
         <select id="fromUnit">
             <option value="F">Fahrenheit</option>
-            <option value="C">Celcious</option>
+            <option value="C">Celsius</option>
         </select>
         <label for="toUnit">To:</label>
         <select id="toUnit">
             <option value="F">Fahrenheit</option>
-            <option value="C">Celcious</option>
-        </select>
+            <option value="C">Celsius</option>
+        </select><br>
         <label for="temperature">Temperature</label>
-        <input type="number" id="temperature" placeholder="Enter Temparature">
+        <input type="number" id="temperature" placeholder="Enter Temperature">
         <button onclick="convert()">Convert</button>
+
         <label for="result">Result:</label>
         <input type="text" id="result" readonly>
-
     </div>
-    <script src="./css/style.css"></script>
+    <script src="/script/code.js"></script>
 </body>
 </html>
